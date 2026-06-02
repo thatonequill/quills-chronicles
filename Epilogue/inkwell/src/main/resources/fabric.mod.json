@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "inkwell",
+	"version": "${version}",
+	"name": "Quill's Inkwell",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Quill"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/inkwell/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.quill.epilogue.inkwell.Inkwell"
+		],
+		"client": [
+			"com.quill.epilogue.inkwell.client.InkwellClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

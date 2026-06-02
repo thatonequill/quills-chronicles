@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "aurelean-heights",
+	"version": "${version}",
+	"name": "Aurelean Heights",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/aurelean-heights/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.quill.chapter1.aureleanheights.AureleanHeights"
+		],
+		"client": [
+			"com.quill.chapter1.aureleanheights.client.AureleanHeightsClient"
+		]
+	},
+	"mixins": [
+		"aurelean-heights.mixins.json",
+		{
+			"config": "aurelean-heights.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,1 +1,0 @@
-Add view for the functional blocks here

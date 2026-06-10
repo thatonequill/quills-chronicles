@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"Chapter 1/Eclipse Highlands\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11951318
+      }
+    },
+    {
+      "query": "path:\"Chapter 1/Aurelean Heights\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15908436
+      }
+    },
+    {
+      "query": "path:\"Chapter 2/Knowledge of the Depth\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 65322
+      }
+    },
+    {
+      "query": "path:\"Chapter 2/Frozen Ocean\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 65310
+      }
+    },
+    {
+      "query": "path:\"Core Conflict\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711705
+      }
+    },
+    {
+      "query": "path:\"Chapter 1\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8902236
+      }
+    },
+    {
+      "query": "path:\"Chapter 2\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084263
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 2.50174967447917,
+  "lineSizeMultiplier": 1.50244954427083,
+  "collapse-forces": true,
+  "centerStrength": 0.495361328125,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.5026516863796665,
+  "close": true
+}

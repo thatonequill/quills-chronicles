@@ -145,8 +145,7 @@
               "title": "The Umbral Vanguards"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -326,10 +325,10 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "665acd374821696e",
+  "active": "4537b553d45afc6a",
   "lastOpenFiles": [
-    "Chapter 1/Aurelean Heights/The High Table.md",
     "Chapter 1/Eclipse Highlands/The Umbral Vanguards.md",
+    "Chapter 1/Aurelean Heights/The High Table.md",
     "Core Conflict/Annihilation of a Civilization.md",
     "Chapter 2/Frozen Ocean/The Historic Catastrophe.md",
     "Chapter 2/Knowledge of the Depth/Lost Knowledge.md",

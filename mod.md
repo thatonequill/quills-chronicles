@@ -1,4 +1,4 @@
-# General World Additions
+``# General World Additions
 
 - **Califer:**
     - **Califer Base Items:** Califer Shard, Califer Dust.
@@ -126,6 +126,11 @@
                                  [ TIER 7: CERISIAN GEAR ]
     ```
 
+Forge:
+[ Iron Ingot ] [ Firebrick ] [ Iron Ingot ]
+[ Firebrick ] [ Blast Furnace ] [ Firebrick ]
+[ Brick/Clay ] [ Firebrick ] [ Brick/Clay ]
+
 ---
 
 # Development Notes & Future Footnotes
@@ -153,26 +158,22 @@ The mod will be divided in 4 sub-mods:
 
 ### Gems and Core Items
 
-- [ ] cerisium_gem.png (Pure cherry-red gemstone item)
-- [ ] califer_shard.png (Unrefined raw purple shard item)
+- [x] califer_shard.png (Unrefined raw purple shard item)
 
 ### Ores and Crystals
 
-- [ ] cerisium_ore.png (Standard stone ore block texture)
-- [ ] deepslate_cerisium_ore.png (Deepslate version variant block texture)
-- [ ] cerisium_block.png (Compressed metal block texture)
-- [ ] califer_bud_small.png (Cross-model crystal cluster stage 1)
-- [ ] califer_bud_medium.png (Cross-model crystal cluster stage 2)
-- [ ] califer_bud_large.png (Cross-model crystal cluster stage 3)
-- [ ] califer_cluster.png (Full harvestable large crystal cluster block)
+- [x] califer_bud_small.png (Cross-model crystal cluster stage 1)
+- [x] califer_bud_medium.png (Cross-model crystal cluster stage 2)
+- [x] califer_bud_large.png (Cross-model crystal cluster stage 3)
+- [x] califer_cluster.png (Full harvestable large crystal cluster block)
 
 ### Custom Structural Blocks
 
-- [ ] califerine.png (Raw stone block texture)
-- [ ] stellar_califerine.png (Chiseled/decorative block texture)
-- [ ] astral_califerine.png (Polished block texture)
-- [ ] radiant_califerine_off.png (Interactive light block texture unlit state)
-- [ ] radiant_califerine_on.png (Interactive light block texture glowing state)
+- [x] califerine.png (Raw stone block texture)
+- [x] stellar_califerine.png (Chiseled/decorative block texture)
+- [x] astral_califerine.png (Polished block texture)
+- [x] radiant_califerine_off.png (Interactive light block texture unlit state)
+- [x] radiant_califerine_on.png (Interactive light block texture glowing state)
 
 ### Workstation Blocks
 
@@ -193,11 +194,10 @@ The mod will be divided in 4 sub-mods:
 - [x] gold_dust.png (Gold flakes layout on parchment)
 - [x] diamond_dust.png (Hard diamond shavings on parchment)
 - [x] emerald_dust.png (Green currency dust layout on parchment)
-- [ ] califer_dust.png (Ground glowing purple dust item)
+- [x] califer_dust.png (Ground glowing purple dust item)
 - [ ] opulent_dust.png (Lavish emerald/gold blend layout on parchment)
 - [ ] debris_dust.png (Coarse dark debris dust on parchment)
 - [x] netherite_dust.png (Heavy refined alloy dust on parchment)
-- [ ] cerisium_dust.png (Ground pure gem powder item)
 - [x] iron_dust.png (Optional - Raw industrial orange-gray powder on parchment)
 - [x] lapis_dust.png (Optional - Deep blue mystical dust layout on parchment)
 - [ ] redstone_dust.png (Optional - Fine crystalline red dust layout on parchment)
@@ -355,3 +355,11 @@ The mod will be divided in 4 sub-mods:
 - [ ] cerisium_inlaid_nyxite.png (Dark brick bleeding deep cherry red crystal lines)
 - [ ] emerald_inlaid_nyxite.png (Dark brick set with raw glowing green minerals)
 - [ ] diamond_inlaid_nyxite.png (Dark brick holding highly bright stark white diamond shards)
+
+### 💎 Cerisium Suite (Chapter 1 Core Gem)
+
+- [x] `cerisium_gem.png` (Artisan-perfect, heavy 32x32 spherical Cherry Cut jewel)
+- [x] `cerisium_dust.png` (Ground pure gem powder item)
+- [ ] `nyxite_cerisium_ore.png` (Red cabochon domes embedded in dark volcanic Nyxite)
+- [ ] `luminite_cerisium_ore.png` (Red cabochon domes embedded in pristine white Luminite)
+- [ ] `cerisium_block.png` (Pending - Storage/Vault block)

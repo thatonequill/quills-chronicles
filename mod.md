@@ -177,15 +177,15 @@ The mod will be divided in 4 sub-mods:
 
 ### Workstation Blocks
 
-- [ ] dusting_table_top.png (Grid interface/surface texture)
-- [ ] dusting_table_side.png (Wooden structural side frame panel)
-- [ ] dusting_table_front.png (Front interface panel)
-- [ ] dusting_table_bottom.png (Base floor texturing)
-- [ ] forge_top.png (Upper heat vents texture)
-- [ ] forge_side.png (Heavy stone side panels)
-- [ ] forge_front_off.png (Extinguished furnace door panel)
-- [ ] forge_front_on.png (Blazing furnace fuel door panel)
-- [ ] forge_bottom.png (Ash tray base floor panel)
+- [x] dusting_table_top.png (Grid interface/surface texture)
+- [x] dusting_table_side.png (Wooden structural side frame panel)
+- [x] dusting_table_front.png (Front interface panel)
+- [x] dusting_table_bottom.png (Base floor texturing)
+- [x] forge_top.png (Upper heat vents texture)
+- [x] forge_side.png (Heavy stone side panels)
+- [x] forge_front_off.png (Extinguished furnace door panel)
+- [x] forge_front_on.png (Blazing furnace fuel door panel)
+- [x] forge_bottom.png (Ash tray base floor panel)
 
 ### Master Dust Library (On-Paper Style)
 
@@ -210,13 +210,13 @@ The mod will be divided in 4 sub-mods:
 
 ### Metal Ingot Items
 
-- [ ] galvanized_iron_ingot.png (Copper-tinted iron bar)
-- [ ] steel_ingot.png (Dark, sleek gunmetal gray bar)
-- [ ] califer_steel_ingot.png (Steel bar accented with magical purple veins)
-- [ ] diamond_steel_ingot.png (Ultra-dense steel bar with reflective diamond sheen)
-- [ ] aristocrat_steel_ingot.png (Lavish, royal golden-green alloy bar)
-- [ ] netherite_steel_ingot.png (Heavy, blackened blast-resistant combat bar)
-- [ ] cerisium_steel_ingot.png (Shimmering crimson-red endgame alloy bar)
+- [x] galvanized_iron_ingot.png (Copper-tinted iron bar)
+- [x] steel_ingot.png (Dark, sleek gunmetal gray bar)
+- [x] califer_steel_ingot.png (Steel bar accented with magical purple veins)
+- [x] diamond_steel_ingot.png (Ultra-dense steel bar with reflective diamond sheen)
+- [x] aristocrat_steel_ingot.png (Lavish, royal golden-green alloy bar)
+- [x] netherite_steel_ingot.png (Heavy, blackened blast-resistant combat bar)
+- [x] cerisium_steel_ingot.png (Shimmering crimson-red endgame alloy bar)
 
 ### Galvanized Iron Gear
 

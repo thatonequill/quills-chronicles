@@ -1,0 +1,10 @@
+{
+  "type": "inkwell:dusting",
+  "ingredients": [
+    { "item": "minecraft:diamond" }
+  ],
+  "result": {
+    "id": "inkwell:diamond_dust",
+    "count": 1
+  }
+}

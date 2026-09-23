@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "inkwell:block/dusting_table_bottom",
+    "up": "inkwell:block/dusting_table_top",
+    "north": "inkwell:block/dusting_table_front",
+    "south": "inkwell:block/dusting_table_back",
+    "east": "inkwell:block/dusting_table_right",
+    "west": "inkwell:block/dusting_table_left",
+    "particle": "inkwell:block/dusting_table_top"
+  }
+}

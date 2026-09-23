@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:brick" },
+    { "item": "inkwell:carbon_dust" }
+  ],
+  "result": {
+    "id": "inkwell:firebrick",
+    "count": 1
+  }
+}

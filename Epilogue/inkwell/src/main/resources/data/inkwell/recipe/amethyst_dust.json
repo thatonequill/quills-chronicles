@@ -1,0 +1,10 @@
+{
+  "type": "inkwell:dusting",
+  "ingredients": [
+    { "item": "minecraft:amethyst_shard" }
+  ],
+  "result": {
+    "id": "inkwell:amethyst_dust",
+    "count": 1
+  }
+}

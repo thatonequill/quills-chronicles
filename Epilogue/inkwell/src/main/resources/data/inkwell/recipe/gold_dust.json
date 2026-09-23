@@ -1,0 +1,10 @@
+{
+  "type": "inkwell:dusting",
+  "ingredients": [
+    { "item": "minecraft:raw_gold" }
+  ],
+  "result": {
+    "id": "inkwell:gold_dust",
+    "count": 1
+  }
+}

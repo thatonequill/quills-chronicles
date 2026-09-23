@@ -1,0 +1,11 @@
+{
+  "type": "inkwell:dusting",
+  "ingredients": [
+    { "item": "inkwell:gold_dust" },
+    { "item": "inkwell:emerald_dust" }
+  ],
+  "result": {
+    "id": "inkwell:opulent_dust",
+    "count": 2
+  }
+}

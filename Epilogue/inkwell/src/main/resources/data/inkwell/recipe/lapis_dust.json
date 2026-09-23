@@ -1,0 +1,10 @@
+{
+  "type": "inkwell:dusting",
+  "ingredients": [
+    { "item": "minecraft:lapis_lazuli" }
+  ],
+  "result": {
+    "id": "inkwell:lapis_dust",
+    "count": 1
+  }
+}

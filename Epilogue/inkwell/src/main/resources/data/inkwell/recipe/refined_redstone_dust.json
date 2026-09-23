@@ -1,0 +1,10 @@
+{
+  "type": "inkwell:dusting",
+  "ingredients": [
+    { "item": "minecraft:redstone_dust" }
+  ],
+  "result": {
+    "id": "inkwell:redstone_dust",
+    "count": 1
+  }
+}

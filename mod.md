@@ -129,7 +129,7 @@
 Forge:
 [ Iron Ingot ] [ Firebrick ] [ Iron Ingot ]
 [ Firebrick ] [ Blast Furnace ] [ Firebrick ]
-[ Brick/Clay ] [ Firebrick ] [ Brick/Clay ]
+[ Brick ] [ Brick ] [ Brick ]
 
 ---
 
@@ -139,13 +139,19 @@ Forge:
 
 - **1.0 Mob Plan:** Custom entities will not be coded for the initial release. Vanilla Villagers will handle trade mechanics in High Table settlements, and vanilla Illagers will serve as placeholders for the Umbral Vanguards until full custom AI and mobs are added in a future phase.
 - **Future Expansion Concept (Ice Region):** A standalone add-on featuring a frozen ship-graveyard biome. Lore-wise, this marks where the Umbral Vanguards' grand naval armada froze and failed during their siege on the sky city. This expansion will introduce ice-themed alloys and unique frost armors. Or something idk its an idea.
+  Prob not for the alloys and forst armors, keep that for the Chapter 2~. Sapphire
 
 ## Mod Plans
 
-The mod will be divided in 4 sub-mods:
+The Mods will be divided in 2 chapters, Epilogue and Chapter 1:
+
+### Epilogue:
 
 - **Quill's Inkwell:** Library mod, adding the new ores and functional blocks.
 - **Quill's Book of Metallurgy:** Utilizing the new ores and functional blocks while reworking the progression.
+
+### Chapter 1:
+
 - **Quill's Chronicles: Aurelean Heights:** The High Table's civilisation.
 - **Quill's Chronicles: Eclipse Highlands:** The Umbral Vanguards' civilisation.
 - Possible additions: `Quill's Chronicles | Extended`
@@ -214,7 +220,7 @@ The mod will be divided in 4 sub-mods:
 - [x] steel_ingot.png (Dark, sleek gunmetal gray bar)
 - [x] califer_steel_ingot.png (Steel bar accented with magical purple veins)
 - [x] diamond_steel_ingot.png (Ultra-dense steel bar with reflective diamond sheen)
-- [x] aristocrat_steel_ingot.png (Lavish, royal golden-green alloy bar)
+- [ ] aristocrat_steel_ingot.png (Lavish, royal golden-green alloy bar)
 - [x] netherite_steel_ingot.png (Heavy, blackened blast-resistant combat bar)
 - [x] cerisium_steel_ingot.png (Shimmering crimson-red endgame alloy bar)
 
@@ -224,11 +230,11 @@ The mod will be divided in 4 sub-mods:
 - [ ] galvanized_iron_chestplate.png
 - [ ] galvanized_iron_leggings.png
 - [ ] galvanized_iron_boots.png
-- [ ] galvanized_iron_sword.png
-- [ ] galvanized_iron_pickaxe.png
-- [ ] galvanized_iron_axe.png
-- [ ] galvanized_iron_shovel.png
-- [ ] galvanized_iron_hoe.png
+- [x] galvanized_iron_sword.png
+- [x] galvanized_iron_pickaxe.png
+- [x] galvanized_iron_axe.png
+- [x] galvanized_iron_shovel.png
+- [x] galvanized_iron_hoe.png
 - [ ] galvanized_iron_layer_1.png (Armor model outer)
 - [ ] galvanized_iron_layer_2.png (Armor model inner leggings)
 
@@ -238,11 +244,11 @@ The mod will be divided in 4 sub-mods:
 - [ ] steel_chestplate.png
 - [ ] steel_leggings.png
 - [ ] steel_boots.png
-- [ ] steel_sword.png
-- [ ] steel_pickaxe.png
-- [ ] steel_axe.png
-- [ ] steel_shovel.png
-- [ ] steel_hoe.png
+- [x] steel_sword.png
+- [x] steel_pickaxe.png
+- [x] steel_axe.png
+- [x] steel_shovel.png
+- [x] steel_hoe.png
 - [ ] steel_layer_1.png (Armor model outer)
 - [ ] steel_layer_2.png (Armor model inner leggings)
 
@@ -252,11 +258,11 @@ The mod will be divided in 4 sub-mods:
 - [ ] califer_steel_chestplate.png
 - [ ] califer_steel_leggings.png
 - [ ] califer_steel_boots.png
-- [ ] califer_steel_sword.png
-- [ ] califer_steel_pickaxe.png
-- [ ] califer_steel_axe.png
-- [ ] califer_steel_shovel.png
-- [ ] califer_steel_hoe.png
+- [x] califer_steel_sword.png
+- [x] califer_steel_pickaxe.png
+- [x] califer_steel_axe.png
+- [x] califer_steel_shovel.png
+- [x] califer_steel_hoe.png
 - [ ] califer_steel_layer_1.png (Armor model outer)
 - [ ] califer_steel_layer_2.png (Armor model inner leggings)
 
@@ -266,11 +272,11 @@ The mod will be divided in 4 sub-mods:
 - [ ] diamond_steel_chestplate.png
 - [ ] diamond_steel_leggings.png
 - [ ] diamond_steel_boots.png
-- [ ] diamond_steel_sword.png
-- [ ] diamond_steel_pickaxe.png
-- [ ] diamond_steel_axe.png
-- [ ] diamond_steel_shovel.png
-- [ ] diamond_steel_hoe.png
+- [x] diamond_steel_sword.png
+- [x] diamond_steel_pickaxe.png
+- [x] diamond_steel_axe.png
+- [x] diamond_steel_shovel.png
+- [x] diamond_steel_hoe.png
 - [ ] diamond_steel_layer_1.png (Armor model outer)
 - [ ] diamond_steel_layer_2.png (Armor model inner leggings)
 
@@ -294,11 +300,11 @@ The mod will be divided in 4 sub-mods:
 - [ ] cerisian_steel_chestplate.png
 - [ ] cerisian_steel_leggings.png
 - [ ] cerisian_steel_boots.png
-- [ ] cerisian_steel_sword.png
-- [ ] cerisian_steel_pickaxe.png
-- [ ] cerisian_steel_axe.png
-- [ ] cerisian_steel_shovel.png
-- [ ] cerisian_steel_hoe.png
+- [x] cerisian_steel_sword.png
+- [x] cerisian_steel_pickaxe.png
+- [x] cerisian_steel_axe.png
+- [x] cerisian_steel_shovel.png
+- [x] cerisian_steel_hoe.png
 - [ ] cerisian_steel_layer_1.png (Armor model outer)
 - [ ] cerisian_steel_layer_2.png (Armor model inner leggings)
 

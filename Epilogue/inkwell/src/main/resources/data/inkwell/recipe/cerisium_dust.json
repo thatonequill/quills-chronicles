@@ -1,0 +1,10 @@
+{
+  "type": "inkwell:dusting",
+  "ingredients": [
+    { "item": "inkwell:cerisium_gem" }
+  ],
+  "result": {
+    "id": "inkwell:cerisium_dust",
+    "count": 1
+  }
+}

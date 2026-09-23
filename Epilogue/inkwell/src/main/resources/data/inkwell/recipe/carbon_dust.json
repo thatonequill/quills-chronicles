@@ -1,0 +1,13 @@
+{
+  "type": "inkwell:dusting",
+  "ingredients": [
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:bone_meal" }
+  ],
+  "result": {
+    "id": "inkwell:carbon_dust",
+    "count": 2
+  }
+}

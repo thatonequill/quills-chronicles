@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "pattern": [
+    "XY",
+    "##",
+    "##"
+  ],
+  "key": {
+    "X": { "item": "minecraft:brush" },
+    "Y": { "item": "minecraft:bowl" },
+    "#": { "tag": "minecraft:planks" }
+  },
+  "result": {
+    "id": "inkwell:dusting_table",
+    "count": 1
+  }
+}

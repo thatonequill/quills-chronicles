@@ -1,0 +1,11 @@
+{
+  "type": "inkwell:dusting",
+  "ingredients": [
+    { "item": "inkwell:debris_dust" },
+    { "item": "inkwell:gold_dust" }
+  ],
+  "result": {
+    "id": "inkwell:netherite_dust",
+    "count": 1
+  }
+}

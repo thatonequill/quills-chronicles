@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "inkwell:block/forge_bottom",
+    "up": "inkwell:block/forge_top_on",
+    "north": "inkwell:block/forge_front_on",
+    "south": "inkwell:block/forge_back",
+    "east": "inkwell:block/forge_side_right",
+    "west": "inkwell:block/forge_side_left",
+    "particle": "inkwell:block/forge_front_on"
+  }
+}

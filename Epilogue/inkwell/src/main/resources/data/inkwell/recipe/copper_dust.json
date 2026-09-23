@@ -1,0 +1,10 @@
+{
+  "type": "inkwell:dusting",
+  "ingredients": [
+    { "item": "minecraft:raw_copper" }
+  ],
+  "result": {
+    "id": "inkwell:copper_dust",
+    "count": 1
+  }
+}

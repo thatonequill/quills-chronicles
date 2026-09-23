@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "inkwell:block/radiant_califerine_off"
+    },
+    "lit=true": {
+      "model": "inkwell:block/radiant_califerine_on"
+    }
+  }
+}

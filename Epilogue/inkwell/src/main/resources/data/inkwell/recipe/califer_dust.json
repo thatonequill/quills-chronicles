@@ -1,0 +1,10 @@
+{
+  "type": "inkwell:dusting",
+  "ingredients": [
+    { "item": "inkwell:califer_shard" }
+  ],
+  "result": {
+    "id": "inkwell:califer_dust",
+    "count": 1
+  }
+}

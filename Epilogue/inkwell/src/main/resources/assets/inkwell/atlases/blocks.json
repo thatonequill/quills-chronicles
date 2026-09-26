@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "inkwell:item/empty_slot_steel"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "inkwell:item/empty_slot_inkwell_dust"
+    }
+  ]
+}

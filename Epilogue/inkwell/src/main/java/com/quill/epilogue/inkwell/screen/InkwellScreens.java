@@ -7,9 +7,15 @@ import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.util.Identifier;
 
 public class InkwellScreens {
-    public static final ScreenHandlerType<DustingTableScreenHandler> DUSTING_TABLE_SCREEN_HANDLER = 
-        Registry.register(Registries.SCREEN_HANDLER, Identifier.of("inkwell", "dusting_table"), 
-        new ScreenHandlerType<>(DustingTableScreenHandler::new, FeatureFlags.VANILLA_FEATURES));
+    public static final ScreenHandlerType<DustingTableScreenHandler> DUSTING_TABLE_SCREEN_HANDLER = Registry.register(
+            Registries.SCREEN_HANDLER, Identifier.of("inkwell", "dusting_table"),
+            new ScreenHandlerType<>(DustingTableScreenHandler::new, FeatureFlags.VANILLA_FEATURES));
 
-    public static void initialize() {}
+    public static final ScreenHandlerType<ForgeScreenHandler> FORGE_SCREEN_HANDLER = Registry.register(
+            Registries.SCREEN_HANDLER,
+            Identifier.of("inkwell", "forge"),
+            new ScreenHandlerType<>(ForgeScreenHandler::new, FeatureFlags.VANILLA_FEATURES));
+
+    public static void initialize() {
+    }
 }

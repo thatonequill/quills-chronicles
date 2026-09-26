@@ -1,6 +1,7 @@
 package com.quill.epilogue.inkwell.block;
 
 import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.AmethystClusterBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
@@ -10,31 +11,34 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class InkwellBlocks {
-    
     // Califerine Crystals & Growth Stages
-    public static final Block BUDDING_CALIFERINE = new Block(AbstractBlock.Settings.copy(Blocks.BUDDING_AMETHYST));
-    public static final Block CALIFER_BUD_SMALL = new Block(AbstractBlock.Settings.copy(Blocks.SMALL_AMETHYST_BUD));
-    public static final Block CALIFER_BUD_MEDIUM = new Block(AbstractBlock.Settings.copy(Blocks.MEDIUM_AMETHYST_BUD));
-    public static final Block CALIFER_BUD_LARGE = new Block(AbstractBlock.Settings.copy(Blocks.LARGE_AMETHYST_BUD));
-    public static final Block CALIFER_CLUSTER = new Block(AbstractBlock.Settings.copy(Blocks.AMETHYST_CLUSTER));
+    public static final Block BUDDING_CALIFERINE = new BuddingCaliferineBlock(
+            AbstractBlock.Settings.copy(Blocks.BUDDING_AMETHYST).ticksRandomly());
+
+    public static final Block CALIFER_BUD_SMALL = new AmethystClusterBlock(3.0F, 5.0F,
+            AbstractBlock.Settings.copy(Blocks.SMALL_AMETHYST_BUD));
+    public static final Block CALIFER_BUD_MEDIUM = new AmethystClusterBlock(7.0F, 4.0F,
+            AbstractBlock.Settings.copy(Blocks.MEDIUM_AMETHYST_BUD));
+    public static final Block CALIFER_BUD_LARGE = new AmethystClusterBlock(10.0F, 3.0F,
+            AbstractBlock.Settings.copy(Blocks.LARGE_AMETHYST_BUD));
+    public static final Block CALIFER_CLUSTER = new AmethystClusterBlock(16.0F, 2.0F,
+            AbstractBlock.Settings.copy(Blocks.AMETHYST_CLUSTER));
 
     // Custom Structural Blocks
     public static final Block CALIFERINE = new Block(AbstractBlock.Settings.copy(Blocks.AMETHYST_BLOCK));
     public static final Block STELLAR_CALIFERINE = new Block(AbstractBlock.Settings.copy(Blocks.AMETHYST_BLOCK));
     public static final Block ASTRAL_CALIFERINE = new Block(AbstractBlock.Settings.copy(Blocks.AMETHYST_BLOCK));
-    
+
     // Storage Blocks
     public static final Block CERISIUM_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.EMERALD_BLOCK));
 
     // Functional Blocks
     public static final Block RADIANT_CALIFERINE = new RadiantCaliferineBlock(
-        AbstractBlock.Settings.copy(Blocks.REDSTONE_LAMP)
-        .luminance(state -> state.get(RadiantCaliferineBlock.LIT) ? 15 : 0)
-    );
+            AbstractBlock.Settings.copy(Blocks.REDSTONE_LAMP)
+                    .luminance(state -> state.get(RadiantCaliferineBlock.LIT) ? 15 : 0));
     public static final Block FORGE = new ForgeBlock(
-        AbstractBlock.Settings.copy(Blocks.BLAST_FURNACE)
-        .luminance(state -> state.get(ForgeBlock.LIT) ? 13 : 0)
-    );
+            AbstractBlock.Settings.copy(Blocks.BLAST_FURNACE)
+                    .luminance(state -> state.get(ForgeBlock.LIT) ? 13 : 0));
     public static final Block DUSTING_TABLE = new DustingTableBlock(AbstractBlock.Settings.copy(Blocks.CRAFTING_TABLE));
 
     public static void registerBlocks() {
@@ -47,7 +51,7 @@ public class InkwellBlocks {
         register("califerine", CALIFERINE);
         register("stellar_califerine", STELLAR_CALIFERINE);
         register("astral_califerine", ASTRAL_CALIFERINE);
-        
+
         register("cerisium_block", CERISIUM_BLOCK);
 
         register("radiant_califerine", RADIANT_CALIFERINE);

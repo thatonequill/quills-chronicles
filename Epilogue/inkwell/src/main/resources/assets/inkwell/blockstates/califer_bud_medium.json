@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
-      "model": "inkwell:block/califer_bud_medium"
-    }
+    "facing=down": { "model": "inkwell:block/califer_bud_medium", "x": 180 },
+    "facing=east": { "model": "inkwell:block/califer_bud_medium", "x": 90, "y": 90 },
+    "facing=north": { "model": "inkwell:block/califer_bud_medium", "x": 90 },
+    "facing=south": { "model": "inkwell:block/califer_bud_medium", "x": 90, "y": 180 },
+    "facing=up": { "model": "inkwell:block/califer_bud_medium" },
+    "facing=west": { "model": "inkwell:block/califer_bud_medium", "x": 90, "y": 270 }
   }
 }

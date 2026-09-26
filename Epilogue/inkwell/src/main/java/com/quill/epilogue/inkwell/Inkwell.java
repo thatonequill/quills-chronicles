@@ -11,6 +11,12 @@ import com.quill.epilogue.inkwell.block.InkwellBlocks;
 import com.quill.epilogue.inkwell.block.entity.InkwellBlockEntities;
 import com.quill.epilogue.inkwell.recipe.InkwellRecipes;
 import com.quill.epilogue.inkwell.screen.InkwellScreens;
+import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
+import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.util.Identifier;
+import net.minecraft.world.gen.GenerationStep;
 
 public class Inkwell implements ModInitializer {
 	public static final String MOD_ID = "quills_inkwell";
@@ -41,5 +47,14 @@ public class Inkwell implements ModInitializer {
 
 		LOGGER.info("[init] Screens...");
 		InkwellScreens.initialize();
+
+		LOGGER.info("[init] World Gen...");
+		var califerineGeodeKey = RegistryKey.of(RegistryKeys.PLACED_FEATURE,
+				Identifier.of("inkwell", "califerine_geode"));
+
+		BiomeModifications.addFeature(
+				BiomeSelectors.foundInOverworld(),
+				GenerationStep.Feature.LOCAL_MODIFICATIONS,
+				califerineGeodeKey);
 	}
 }
